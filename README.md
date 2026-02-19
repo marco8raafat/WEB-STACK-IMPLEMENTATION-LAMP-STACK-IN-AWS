@@ -24,7 +24,7 @@ LAMP is a web development stack consisting of:
   - Instance Type: `t2.micro`
   - OS: **Ubuntu Server 24.04 LTS (HVM)**
 - Download and securely save your `.pem` private key.
-
+(screenshots/Screenshot 2026-02-19 170501.png)
 ⚠️ IMPORTANT:
 - Never share your `.pem` file.
 - If lost, you cannot access your server again.
