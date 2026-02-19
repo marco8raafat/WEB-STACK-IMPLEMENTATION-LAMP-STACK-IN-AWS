@@ -40,7 +40,7 @@ LAMP is a web development stack consisting of:
 cd Downloads
 ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
 ```
-
+![connected-ubuntu-ec2](screenshots/connected-ubuntu-ec2.png)
 # 🚀 Step 1 — Install Apache and Configure Firewall
 
 ## Update Packages
@@ -48,13 +48,13 @@ ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
 ```bash
 sudo apt update
 ```
-
+![apt-update](screenshots/apt-update.png)
 ## Install Apache
 
 ```bash
 sudo apt install apache2
 ```
-
+![install-apache](screenshots/install-apache.png)
 ## Verify Apache Status
 
 ```bash
