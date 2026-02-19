@@ -178,7 +178,6 @@ sudo a2dissite 000-default
 sudo apache2ctl configtest
 sudo systemctl reload apache2
 ```
-
 ## Create Test Page
 
 ```bash
@@ -218,7 +217,7 @@ Reload Apache:
 ```bash
 sudo systemctl reload apache2
 ```
-
+![final-apache](screenshots/final-apache.png)
 ---
 
 ## Create PHP Test File
@@ -239,7 +238,7 @@ Visit in browser:
 ```
 http://<Public-IP-Address>
 ```
-
+![php-page](screenshots/php-page.png)
 If PHP info page appears ✅ — your LAMP stack is working!
 
 ---
