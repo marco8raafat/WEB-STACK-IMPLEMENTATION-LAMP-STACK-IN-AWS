@@ -286,7 +286,7 @@ The LAMP stack is now fully operational and ready for hosting dynamic web applic
 ## 👨‍💻 Author
 
 Marco Raafat Zakaria  
-Steghub scolarship
+Steghub Scholarship
 
 ---
 
