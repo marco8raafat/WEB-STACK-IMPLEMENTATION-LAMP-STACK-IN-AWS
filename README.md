@@ -139,7 +139,7 @@ sudo apt install php libapache2-mod-php php-mysql
 ```bash
 php -v
 ```
-![php-version](php-version.png)
+![php-version](screenshots/php-version.png)
 ---
 
 # 🌐 Step 4 — Configure Apache Virtual Host
