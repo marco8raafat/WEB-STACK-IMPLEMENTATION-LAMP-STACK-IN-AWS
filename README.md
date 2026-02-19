@@ -60,7 +60,7 @@ sudo apt install apache2
 ```bash
 sudo systemctl status apache2
 ```
-![status-apache2](status-apache2.png)
+![status-apache2](screenshots/status-apache2.png)
 ## Test Locally
 
 ```bash
@@ -91,13 +91,13 @@ http://<Public-IP-Address>:80
 ```bash
 sudo apt install mysql-server
 ```
-![install-mysql-server](install-mysql-server.png)
+![install-mysql-server](screenshots/install-mysql-server.png)
 ## Access MySQL
 
 ```bash
 sudo mysql
 ```
-![sudo-mysql](sudo-mysql.png)
+![sudo-mysql](screenshots/sudo-mysql.png)
 ## Set Root Password
 
 ```sql
@@ -169,7 +169,7 @@ sudo vi /etc/apache2/sites-available/projectlamp.conf
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
-![add-config](add-config.png)
+![add-config](screenshots/add-config.png)
 ## Enable Site
 
 ```bash
