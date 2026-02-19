@@ -60,7 +60,7 @@ sudo apt install apache2
 ```bash
 sudo systemctl status apache2
 ```
-
+![status-apache2](status-apache2.png)
 ## Test Locally
 
 ```bash
@@ -91,18 +91,17 @@ http://<Public-IP-Address>:80
 ```bash
 sudo apt install mysql-server
 ```
-
+![install-mysql-server](install-mysql-server.png)
 ## Access MySQL
 
 ```bash
 sudo mysql
 ```
-
+![sudo-mysql](sudo-mysql.png)
 ## Set Root Password
 
 ```sql
 ALTER USER 'root'@'localhost'
-IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 ```
 
 Exit MySQL:
@@ -134,13 +133,13 @@ sudo mysql -p
 ```bash
 sudo apt install php libapache2-mod-php php-mysql
 ```
-
+![install-php](screenshots/install-php.png)
 ## Verify PHP Version
 
 ```bash
 php -v
 ```
-
+![php-version](php-version.png)
 ---
 
 # 🌐 Step 4 — Configure Apache Virtual Host
@@ -170,7 +169,7 @@ sudo vi /etc/apache2/sites-available/projectlamp.conf
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
-
+![add-config](add-config.png)
 ## Enable Site
 
 ```bash
